@@ -1,4 +1,4 @@
-## CloneSet
+## CloneSet蓝绿/灰度发布
 
 - blue_green: 演示CloneSet使用Ingress做蓝绿发布
 - gray_release_ingress: 演示CloneSet使用Ingress做灰度发布
