@@ -17,7 +17,7 @@ spec:
       containers:
       - name: nginx-demo-v1
         image: weihoop/nginx:demo-v1 
-        imagePullPolicy: IfNotPresent
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
         livenessProbe:
