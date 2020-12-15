@@ -1,0 +1,15 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: nginx-demo
+  annotations:
+    kubernetes.io/ingress.class: "nginx"
+spec:
+  rules:
+  - host: nginx-demo-gray.myapp.com
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: nginx-demo
+          servicePort: 80
