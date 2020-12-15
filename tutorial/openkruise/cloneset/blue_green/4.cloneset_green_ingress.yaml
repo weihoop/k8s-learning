@@ -1,11 +1,9 @@
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-  name: nginx-demo-v2
+  name: nginx-demo
   annotations:
     kubernetes.io/ingress.class: "nginx"
-    nginx.ingress.kubernetes.io/canary: "true"
-    nginx.ingress.kubernetes.io/canary-weight: "30"
 spec:
   rules:
   - host: nginx-demo.myapp.com
