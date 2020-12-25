@@ -8,11 +8,6 @@
 - convert-ingress-alibaba-log-template.sh
   - 使用ingress-alibaba-log-template.yml.j2，生成ingress-alibaba-log.yml文件
   - 生成的yml用于部署ingress controller阿里云日志服务
-- ingress-controller-template.yml.j2
-- ingress-alibaba-log-template.yml.j2
-- nginx-ingress-inter-template.yml
-  - 使用../build-ingress.sh,生成nginx-ingress-inter.yml
-  - 生成的yml用于部署spock service的ingress
 
 ### 参考文档
 
